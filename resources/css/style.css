@@ -15,10 +15,236 @@ body {
 /*
     Colors
     Teal: #005F61
-    Blue Green: #00589B
+    Blue Green: #00859B
     Leaf Green: #789D4A
     Cool Gray: #97999B
 */
 
 /* Start Style from here */
 
+
+/* Header Section */
+.navbar {
+    border-bottom: 1px solid white;
+    position: relative;
+    z-index: 100;
+}
+
+.nav-item {
+    margin: 0 5px;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+@media only screen and (min-width: 978px) {
+    .nav-link:hover {
+        border-top: 2px solid white;
+    }
+
+    .logo-collapsed {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 978px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar,
+    #navbarSupportedContent {
+        background-color: #789D4A;
+    }
+}
+
+/* Banner Section */
+
+#banner {
+    background-image: linear-gradient(to top, rgba(255,0,0,0), #789D4A), url(../img/img_hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -90;
+}
+
+#banner h1 {
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 1px #000000a4;
+}
+
+#banner h2 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.text-highlight-black {
+    color: black;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.493);
+    ;
+}
+
+.btn-one-role {
+    background-color: #005F61;
+    color: white;
+    width: 150px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 10px 10px 0 0;
+    font-size: 1.25rem;
+}
+
+.btn-two-role {
+    background-color: #97999B;
+    color: white;
+    width: 150px;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 10px 10px 0 0;
+    font-size: 1.25rem;
+}
+/* Features Section */
+
+#features {
+    margin-bottom: 100px;
+}
+
+.feature {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.feature-light {
+    border: 2px solid #00859B;
+}
+
+.feature-light h3,
+.feature-light p {
+    color: #00859B;
+}
+
+.feature-dark {
+    border: 2px solid #789D4A;
+    background-color: #789D4A;
+}
+
+.feature-dark h3,
+.feature-dark p {
+    color: white;
+}
+
+.feature-title {
+    text-align: center;
+    padding: 15px;
+}
+
+.feature-title-dark {
+    color: white;
+}
+
+.feature-icon {
+    text-align: center;
+    padding: 15px;
+}
+
+.feature-description {
+    text-align: center;
+    padding: 5px 15px;
+}
+
+/* Building Section */
+
+#building {
+    height: 500px;
+    margin: 50px 0;
+}
+
+.building-dark {
+    background-color: #00859B;
+}
+
+.building-dark h2 {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.building-dark p {
+    font-size: 2rem;
+    color: white;
+    padding-right: 10px;
+    line-height: 35px;
+}
+
+.building-image {
+    position: absolute;
+    top: 10%;
+    left: -10%;
+}
+
+@media only screen and (max-width: 990px) {
+    .building-image {
+        position: static;
+        left: 0;
+        width: 100%;
+        margin: 0 0 30px 0;
+        padding: 0 0 100px 0;
+    }
+}
+
+
+/* Gallery Section - News & Insights*/
+
+#news {
+    padding: 50px 10px;
+}
+
+.insights-title {
+    color: #00859B;
+}
+
+.fa-chevron-left,
+.fa-chevron-right,
+.card-title > a {
+    color: #00859B;
+}
+
+/* Footer */
+
+footer {
+    background-color: #00859B;
+    padding: 20px 1px 1px 1px;
+}
+
+hr.solid {
+    border-top: 1px solid white;
+}
+
+.footer-link > h5 > a {
+    color: white;
+    font-weight: 300;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 990px) {
+    .nav-link:hover {
+        border-top: 2px solid white;
+    }
+}

@@ -19,51 +19,320 @@
     
     <!-- Header Section 1 -->
     <header id="home">
-        <h1>Hello World !!!</h1>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img class="logo-collapsed" src="resources/img/logo_white.svg" width="120" alt="vhb logo">
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                People
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.vhb.com/who-we-are/" target="_blank">Who We are</a>
+                <a class="dropdown-item" href="https://www.vhb.com/leadership/" target="_blank">Lidership</a>
+                <a class="dropdown-item" href="https://www.vhb.com/community-social-responsibility/" target="_blank">Social Responsibility</a>
+                <a class="dropdown-item" href="https://www.vhb.com/core-values/" target="_blank">Core Values</a>
+                <a class="dropdown-item" href="https://www.vhb.com/integrity/" target="_blank">Integrity</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Experience
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.vhb.com/working-with-us/" target="_blank">Working with Us</a>
+                <a class="dropdown-item" href="https://www.vhb.com/transportation-agencies/" target="_blank">Markets we Serve</a>
+                <a class="dropdown-item" href="https://www.vhb.com/transportation-planning-and-engineering/" target="_blank">Services</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.vhb.com/locations/" target="_blank">Locations</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="navbar-brand" href="#">
+                <img src="resources/img/logo_color.svg" width="120" alt="vhb logo">
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.vhb.com/viewpoints/" target="_blank">Viewpoints</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News & Insights</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Careers
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://www.vhb.com/join-us/" target="_blank">Join Us</a>
+                <a class="dropdown-item" href="https://careers-vhb.icims.com/jobs/intro?hashed=-625979961&mobile=false&width=1380&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240" target="_blank">Job Openings</a>
+                <a class="dropdown-item" href="https://www.vhb.com/new-grads/" target="_blank">New Grads</a>
+                <a class="dropdown-item" href="https://www.vhb.com/globalassets/careers/vhb-employee-benefit_oct_2020.pdf" target="_blank">Benefits</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
 
       <!-- Banner Section 2 -->
       <section id="banner">
-
+        <div class="container d-flex flex-column align-items-center h-100">
+          <div class="row my-auto">
+            <div class="col d-flex flex-column align-items-center">
+              <h1>Working together to deliver a resilient and sustainable solutions for our <span class="text-highlight-black">clients</span> and <span class="text-highlight-black">customers</span></h1>
+              <div>
+                <a href="#features" class="btn btn-one-role" role="button" aria-pressed="true">Learn More</a>
+                <a href="#testimonials" class="btn btn-two-role" role="button" aria-pressed="true">Learn Less</a>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-auto">
+            <h2 class="mb-3">Engineers  |  Scientists  |  Planners  |  Designers</h2>
+          </div>
+        </div>
       </section>
 
 
       <!-- Features Section 3 -->
       <section id="features">
-
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-4">
+              <div class="feature feature-light">
+                <h3 class="feature-title">Societal & environmental</h3>
+                <p class="feature-icon"><img src="resources/img/icon_environment.svg" height="120" alt="enviroment icon"></p>
+                <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur quo dolores nulla neque velit nemo, excepturi voluptas illo aperiam, tempore veritatis blanditiis quas iure?voluptas illo aperiam, tempore</p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div class="feature feature-dark">
+                <h3 class="feature-title feature-title-dark">Technology & Innovation</h3>
+                <p class="feature-icon"><img src="resources/img/icon_technology.svg" height="120" alt="enviroment icon"></p>
+                <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur quo dolores nulla neque velit nemo, excepturi voluptas illo aperiam, tempore veritatis blanditiis quas iure?voluptas illo aperiam, tempore</p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div class="feature feature-light">
+                <h3 class="feature-title">Clean energy commitment</h3>
+                <p class="feature-icon"><img src="resources/img/icon_energy.svg" height="120" alt="enviroment icon"></p>
+                <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur quo dolores nulla neque velit nemo, excepturi voluptas illo aperiam, tempore veritatis blanditiis quas iure?voluptas illo aperiam, tempore</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
 
       <!-- Building Section 4 -->
       <section id="building">
-
+        <div class="container-fluid">
+          <div class="row h-100">
+            <div class="col-md-12 col-lg-2 building-dark"></div>
+            <div class="col-md-12 col-lg-4 building-dark d-flex flex-column justify-content-center p-5">
+              <h2>BUILDING</h2>
+              <p>a Sustainable, Resilient, and Equitable Future</p>
+              <img src="resources/img/icon_leaves_white.svg" width="100px" alt="building">
+            </div>
+            <div class="col-md-12 col-lg-6 building-light p-0">
+              <img class="building-image" src="resources/img/img_building.jpg" height="400px" alt="building">
+            </div>
+          </div>
+        </div>
       </section>
 
 
       <!-- Testimonials Section 5 -->
       <section id="testimonials">
-
+        
       </section>
 
 
-      <!-- Gallery Section 6 -->
-      <section id="gallery">
+      <!-- News Gallery Section 6 -->
+      <section id="news">
+        <div class="container">
+          <h1 class="text-center my-2 insights-title">News & Insights</h1>
+          <div id="multi-item" class="carousel slide carousel-multi-item" data-ride="carousel">
 
+            <!--Controls-->
+            <div class="controls-top text-center my-4">
+              <a class="black-text" href="#multi-item" data-slide="prev"><i class="fa fa-chevron-left fa-2x"></i></a>
+              <a class="black-text" href="#multi-item" data-slide="next"><i class="fa fa-chevron-right fa-2x"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!-- Slides -->
+            <div class="carousel-inner" role="listbox">
+
+              <!-- Carousel Item Line of 3 cards -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/vhb-welcomes-anne-elizabeth-kaitano-to-northeast-energy-team/" target="_blank">Welcome Anne</a></h5>
+                        <p class="card-text">VHB Welcomes Anne-Elizabeth Kaitano to Northeast Energy Team</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/long-bridge-rail-project-moves-closer-to-construction/" target="_blank">Long Bridge Rail</a></h5>
+                        <p class="card-text">Long Bridge Rail Project Moves One Step Closer to Construction</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/providence-charitable-team-brings-energy-creativity-and-masterful-organization/" target="_blank">Providence Team Support</a></h5>
+                        <p class="card-text">Providence Team Supports VHB Cares with Energy, Creativity, and Masterful Organization</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item Line of 3 cards -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_4.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/jmu-land-bridge-project-wins-two-industry-awards/" target="_blank">James Madison University</a></h5>
+                        <p class="card-text">James Madison University’s East Campus Land Bridge Wins Two Industry Awards</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_5.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/supporting-others-with-20-in-2020-challenge/" target="_blank">#20in2020 Challenge</a></h5>
+                        <p class="card-text">VHBers Across Our Footprint Supported Others While Having Fun with #20in2020 Challenge</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_6.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/vhb-selected-as-a-best-place-to-work-by-virginia-business/" target="_blank">Best Places to Work</a></h5>
+                        <p class="card-text">VHB Named One of the Best Places to Work in Virginia—for the Fifth Year in a Row!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Item Line of 3 cards -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_7.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/vhb-and-brinkerhoff-environmental-services-join-forces/" target="_blank">Environmental Services</a></h5>
+                        <p class="card-text">VHB Acquires Brinkerhoff Environmental Services</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_8.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/news/WTS-leadership-appointments/" target="_blank">Leadership Roles</a></h5>
+                        <p class="card-text">VHB continues to make an impact with 17 appointments to WTS chapter roles</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card">
+                      <img class="card-img-top" src="resources/img/img_news_9.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">New Campus Buildings</a></h5>
+                        <p class="card-text">Old Dominion University Demonstrates Commitment to STEM-H with the Opening of Two New Campus Buildings</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </section>
 
 
       <!-- Form Section 7 -->
       <section id="form">
-
+        
       </section>
 
     </main>
 
     <!-- Footer Section 8 -->
     <footer>
-
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-12 col-lg-3">
+            <a class="navbar-brand" href="#">
+              <img src="resources/img/logo_white.svg" width="200" alt="vhb logo">
+            </a>
+          </div>
+          <div class="col-md-4 col-lg-2 footer-link">
+            <hr class="solid">
+            <h5><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">People</a></h5>
+            <h5><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">Experience</a></h5>
+            <h5><a href="https://www.vhb.com/locations/" target="_blank">Locations</a></h5>
+          </div>
+          <div class="col-md-4 col-lg-2 footer-link">
+            <hr class="solid">
+            <h5><a href="https://www.vhb.com/viewpoints/" target="_blank">Viewpoints</a></h5>
+            <h5><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">News & Insights</a></h5>
+            <h5><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">Careers</a></h5>
+          </div>
+          <div class="col-md-4 col-lg-2 footer-link">
+            <hr class="solid">
+            <h5><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">Legal Notice</a></h5>
+            <h5><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">Accessibility</a></h5>
+            <h5><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">Contact</a></h5>
+          </div>
+          <div class="col-md-12 col-lg-3 d-flex justify-content-between align-items-center my-4">
+            <a href="https://www.facebook.com/VHBNow" target="_blank"><img src="resources/img/social_facebook.svg" width="40" alt="facebook link"></a>
+            <a href="https://twitter.com/VHBnow" target="_blank"><img src="resources/img/social_twitter.svg" width="40" alt="twitter link"></a>
+            <a href="https://www.linkedin.com/company/vhb/" target="_blank"><img src="resources/img/social_linkedin.svg" width="40" alt="linkedin link"></a>
+            <a href="https://www.instagram.com/vhbnow/" target="_blank"><img src="resources/img/social_instagram.svg" width="40" alt="instagram link"></a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <p class="copyright">© 2021 / VHB®, Vanasse Hangen Brustlin, Inc.® and Vanasse Hangen BrustlinSM All Rights Reserved</p>
+        </div>
+      </div>
     </footer>
 
     <!-- Main Scripts-->
