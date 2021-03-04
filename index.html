@@ -19,7 +19,7 @@
     
     <!-- Header Section 1 -->
     <header id="home">
-        <h1>Hello World !!!</h1>
+        <!-- <h1>Hello World !!!</h1> -->
     </header>
 
     <main>
@@ -37,14 +37,88 @@
 
 
       <!-- Building Section 4 -->
-      <section id="building">
-
+      
+        <section class="section" id="building">
+          <div class="container">
+              <div class="row building-row mt-5">
+                <div class=" building-left text-center col-lg-6">                 
+                      <h2 class="mt-5"><span class="font-weight-bold">Building</span></h2>
+                             <p class="mt-5 text-left">
+                              A Sustainable, Resilience and Equitable future.
+                      </p>  
+                      <div class="building-leaf"> <img src="./resources/img/icon_leaves_white.svg" alt=""> </div>             
+              </div>
+                  <div class="col-lg-6">
+                      <div class="building-img">
+                          <img src="./resources/img/img_building.jpg" alt="" class="img-fluid mx-auto d-block img-thumbnail">
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
       </section>
+      
 
 
       <!-- Testimonials Section 5 -->
-      <section id="testimonials">
+      <section  class="container mt-5 mb-5" id="testimonials">
+ 
+          <div id="demo" class="carousel slide" data-ride="carousel">
+          
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-text" > 
+                  <p>VHB’s diverse team brings together our collective knowledge, 
+                    technical excellence,and wide network of trusted relationships across our 
+                    footprintto address our clients’ most complex challenges.
+                    </p> </div>
+                    <div class="clarousel-img mb-3 mt-3" ><img src="./resources/img/icon_leaves_gray.svg" alt=""></div> 
+                <img src="./resources/img/executive_1.png" alt="" >
+                <div class="carousel-caption">
+                 
+                </div> 
+                <div class="carousel-name mt-3"> <h4>John Doe, CEO</h4>
+                  </div> 
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-text" > 
+                  <p>VHB’s diverse team brings together our collective knowledge, 
+                    technical excellence,and wide network of trusted relationships across our 
+                    footprintto address our clients’ most complex challenges.
+                    </p> </div>
+                    <div class="clarousel-img mb-3 mt-3" ><img src="./resources/img/icon_leaves_gray.svg" alt=""></div> 
+                <img src="./resources/img/executive_2.png" alt="" >
+                <div class="carousel-caption">
+                
+                </div> 
+                <div class="carousel-name mt-3"> <h4>John Doe, CEO</h4>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-text" > 
+                  <p>VHB’s diverse team brings together our collective knowledge, 
+                    technical excellence,and wide network of trusted relationships across our 
+                    footprintto address our clients’ most complex challenges.
+                    </p> </div>
+             <div class="clarousel-img mb-3 mt-3" ><img src="./resources/img/icon_leaves_gray.svg" alt=""></div> 
 
+                <img src="./resources/img/executive_3.png" alt="" >
+                <div class="carousel-caption">
+                
+                </div>   
+                <div class="carousel-name mt-3"> <h4>John Doe, CEO</h4>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+            
+          </div>
+              
+  
       </section>
 
 
@@ -55,9 +129,70 @@
 
 
       <!-- Form Section 7 -->
-      <section id="form">
-
-      </section>
+      <br>
+      <br>
+      <section  id="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-left mt-5">
+                        <h2><span class="font-weight-bold ">Get in Touch</span></h2>
+                        <p class=" mx-auto section-subtitle mt-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                    </div>
+                    <div class="icon_leaves_white mt-3"> <img src="./resources/img/icon_leaves_white.svg" alt=""> </div>
+                    <div class="address mt-3">
+                      <ul>
+                        <li> 1717 Harisson St,San Francisco,CA 94103,USA</li>
+                        <li class="secondfont"> 123-123-1234</li>
+                      </ul>
+                    </div>
+                </div>        
+          
+                <div class="col-lg-6">
+                    <div class="form-vhb contact_form mt-5">
+                        <div id="message"></div>
+                        <form method="post" action="./resources/php/form-validation.php" name="contact-form" id="working_form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                      <p class="alert alert-danger" id="nameError">Please, enter your full name.</p>
+                                        <input name="name" id="name" type="text" class="form-control"
+                                            placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                      <p class="alert alert-danger" id="emailError">Please, enter your email address.</p>
+                                        <input name="email" id="email" type="email" class="form-control"
+                                            placeholder="Email Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                          
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                      <p class="alert alert-danger" id="messageError">Please enter your message.</p>
+                                        <textarea name="comments" id="comments" rows="4" class="form-control"
+                                            placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 text-left">
+                                    <input type="submit" id="submit" name="send"
+                                        class="submitBnt btn btn-custom " value="Submit">
+                                    <div id="simple-msg"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     </main>
 

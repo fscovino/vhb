@@ -22,3 +22,109 @@ body {
 
 /* Start Style from here */
 
+/* Testmonial */
+#testimonials{
+    height: 350px;
+}
+
+.carousel-item >img{
+    background-color:white;
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+    width:50%;
+    height: 200px;
+    width: 200px;    
+    border-radius: 50%;
+    border: 2px solid #00859B;
+    padding: 5px;
+}
+.carousel-text{
+    text-align: center;
+    color:#00859B;;
+     margin: 0px 80px;
+}
+.carousel-name{
+    text-align: center;
+    color:#97999B;
+     margin: 0px 80px;
+}
+
+span.carousel-control-prev-icon{
+background-color:gray;
+}
+span.carousel-control-next-icon{
+    background-color:gray;   
+}
+
+#contact{
+  background-color:#97999B;
+  padding: 0 100px;
+}
+.text-left{
+    color:white;
+}
+.submitBnt{
+  background-color:#00859B;
+  color:white; 
+  width:150px;
+  border: 2px solid white ;
+}
+.icon_leaves_white>img{
+width: 100px;
+}
+
+.clarousel-img>img{
+    width: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+}
+.address>ul{
+    color: white;
+    text-decoration: none;
+    list-style:none;
+}
+
+.address li::before {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: " \f276";
+
+}
+
+.address ul>li:last-child::before {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f095";
+
+}
+
+.building-left {
+    background-color: #00859B;
+   
+    color:white;
+    margin-right: -150px;
+   
+
+}
+.building-left>p{
+    padding:0 100px;
+}
+.building-img{
+    max-height: 90%;
+    margin:5% 5%;
+    z-index: 1;
+    
+}
+
+.building-leaf{
+    width: 100px;
+    margin:0 100px;
+}
+.building-left>h2{
+    font-size:48px;
+}
+.building-left>p{
+    font-size:25px;
+}
