@@ -157,7 +157,53 @@
 
       <!-- Testimonials Section 5 -->
       <section id="testimonials">
-        
+        <div class="container">
+          <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+              <div class="carousel-item text-center active">
+                <h2 class="testimonial-text">VHB’s diverse team brings together our collective knowledge, technical excellence,and wide network of trusted relationships across our footprintto address our clients’ most complex challenges.</h2>
+                <img src="resources/img/icon_leaves_gray.svg" width="80px" alt="Leaves icon">
+                <div class="testimonial-ring d-flex justify-content-center mx-auto">
+                  <img src="resources/img/executive_3.png" class="d-block my-auto testimonial-image" alt="CEO picture">
+                </div>
+                <p class="testimonial-name">John Doe, CEO</p>
+              </div>
+
+              <div class="carousel-item text-center">
+                <h2 class="testimonial-text">VHB’s diverse team brings together our collective knowledge, technical excellence,and wide network of trusted relationships across our footprintto address our clients’ most complex challenges.</h2>
+                <img src="resources/img/icon_leaves_gray.svg" width="80px" alt="Leaves icon">
+                <div class="testimonial-ring d-flex justify-content-center mx-auto">
+                  <img src="resources/img/executive_2.png" class="d-block my-auto testimonial-image" alt="CEO picture">
+                </div>
+                <p class="testimonial-name">Lisa Chan, CFO</p>
+              </div>
+
+              <div class="carousel-item text-center">
+                <h2 class="testimonial-text">VHB’s diverse team brings together our collective knowledge, technical excellence,and wide network of trusted relationships across our footprintto address our clients’ most complex challenges.</h2>
+                <img src="resources/img/icon_leaves_gray.svg" width="80px" alt="Leaves icon">
+                <div class="testimonial-ring d-flex justify-content-center mx-auto">
+                  <img src="resources/img/executive_1.png" class="d-block my-auto testimonial-image" alt="CEO picture">
+                </div>
+                <p class="testimonial-name">Will Smith, CTO</p>
+              </div>
+
+            </div>
+            <a class="carousel-control-prev mt-auto" href="#carouselIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
       </section>
 
 
@@ -290,7 +336,40 @@
 
       <!-- Form Section 7 -->
       <section id="form">
-        
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 col-lg-2"></div>
+            <div class="col-md-12 col-lg-4 d-flex flex-column justify-content-center p-5">
+              <h2>Get In Touch</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dignissimos illum, incidunt repellat iste impedit quas architecto ipsam quasi harum, consectetur itaque excepturi aspernatur vero sunt sapiente inventore minus voluptas!</p>
+              <img src="resources/img/icon_leaves_white.svg" width="100px" alt="building">
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <form  method="post" action="./resources/php/form-validation.php" name="contact-form" id="working_form">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="fullmname">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name">
+                    <p id="nameError" class="form-error-message"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Enter your full name</p>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email">
+                    <p id="emailError" class="form-error-message"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Enter a valid email address</p>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" name="comments" id="comments" rows="3"></textarea>
+                    <p id="messageError" class="form-error-message"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Enter a meaningful message</p>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-block btn-form" name="send" id="submit" value="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
 
     </main>

@@ -34,6 +34,7 @@ body {
     margin: 0 5px;
     font-size: 1.15rem;
     font-weight: 700;
+    align-self: center;
 }
 
 .nav-link {
@@ -190,6 +191,7 @@ body {
 }
 
 .building-image {
+    border: 4px solid white;
     position: absolute;
     top: 10%;
     left: -10%;
@@ -205,6 +207,51 @@ body {
     }
 }
 
+/* Testimonials */
+
+#testimonials {
+    margin: 10px;
+    padding-top: 35px;
+}
+
+.testimonial-text {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    color: #00859B;
+    padding: 15px;
+}
+
+.testimonial-ring {
+    border: 1px solid #00859B;
+    border-radius: 90px;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin: 15px;
+}
+
+.testimonial-image {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.testimonial-name {
+    font-size: 1.2rem;
+    color: #97999B;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon  {
+    background-color: #00859B;
+    border-radius: 25px;
+}
+
+  #carouselIndicators > ol > li {
+      background-color: #00859B;
+      position: relative;
+      top: 20px;
+  }
 
 /* Gallery Section - News & Insights*/
 
@@ -221,6 +268,36 @@ body {
 .card-title > a {
     color: #00859B;
 }
+
+/* Form Section */
+
+#form {
+    background-color: #97999B;
+    padding: 30px;
+}
+
+#form h2,
+#form p {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.btn-form {
+    background-color: #00859B;
+    color: white;
+}
+
+#form .form-error-message {
+    color: red;
+    margin: 0;
+}
+
+/* #working_form > div:nth-child(1) > div:nth-child(1) > p {
+    color: red;
+} */
 
 /* Footer */
 
