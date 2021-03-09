@@ -20,18 +20,17 @@ body {
     Cool Gray: #97999B
 */
 
-/* Start Style from here */
-
 
 /* Header Section */
 .navbar {
-    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.75);
     position: relative;
+    width: 100%;
     z-index: 100;
 }
 
 .nav-item {
-    margin: 0 5px;
+    margin: 0 10px;
     font-size: 1.15rem;
     font-weight: 700;
     align-self: center;
@@ -62,15 +61,15 @@ body {
 
     .navbar,
     #navbarSupportedContent {
-        background-color: #789D4A;
+        background-color: #00849b;
     }
 }
 
-/* Banner Section */
+/* Hero Section */
 
-#banner {
-    background-image: linear-gradient(to top, rgba(255,0,0,0), #789D4A), url(../img/img_hero.jpg);
-    background-position: center center;
+.hero {
+    background-image: url(../img/img_banner1.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -79,99 +78,104 @@ body {
     top: -90;
 }
 
-#banner h1 {
-    margin-top: 20%;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 1px #000000a4;
+.hero img {
+    width: 450px;
+    position: absolute;
+    top: 45%;
+    left: 12.5%;
 }
 
-#banner h2 {
-    text-align: center;
+.hero h1 {
+    font-size: 1.75rem;
     color: white;
-    font-weight: 400;
+    width: 450px;
+    position: absolute;
+    top: 54%;
+    left: 12.5%;
 }
 
-.text-highlight-black {
-    color: black;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.493);
-    ;
-}
-
-.btn-one-role {
-    background-color: #005F61;
+.hero a {
+    font-size: 1.75rem;
     color: white;
-    width: 150px;
+    width: 350px;
+    position: absolute;
+    top: 60%;
+    left: 12.5%;
     border-radius: 25px;
     border: 2px solid white;
     margin: 10px 10px 0 0;
     font-size: 1.25rem;
 }
 
-.btn-two-role {
-    background-color: #97999B;
-    color: white;
-    width: 150px;
-    border-radius: 25px;
-    border: 2px solid white;
-    margin: 10px 10px 0 0;
-    font-size: 1.25rem;
-}
-/* Features Section */
-
-#features {
-    margin-bottom: 100px;
-}
-
-.feature {
-    padding: 20px;
-    margin: 10px;
-    border-radius: 25px;
-}
-
-.feature-light {
-    border: 2px solid #00859B;
-}
-
-.feature-light h3,
-.feature-light p {
+.hero a:hover {
+    background-color: white;
     color: #00859B;
 }
 
-.feature-dark {
-    border: 2px solid #789D4A;
-    background-color: #789D4A;
+.polygon {
+    position: relative;
+    background-color: #00849bc5;
+    width: 600px;
+    height: 100vh;
+    left: 7.5%;
+    transform: skew(15deg);
 }
 
-.feature-dark h3,
-.feature-dark p {
-    color: white;
+@media only screen and (max-width: 976px) {
+    .polygon {
+        visibility: hidden;
+    }
+
+    .hero img {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .hero h1 {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .hero a {
+        left: 50%;
+        transform: translate(-50%);
+    }
+} 
+
+/* Benefits Section */
+
+#benefits {
+    margin-top: -25px;
+    margin-bottom: 100px;
 }
 
-.feature-title {
-    text-align: center;
-    padding: 15px;
+#benefits h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #00859B;
 }
 
-.feature-title-dark {
-    color: white;
+.benefit-box {
+    width: 250px;
+    height: 250px;
+    background-color: #d4d4d4;
+    margin: 3px;
 }
 
-.feature-icon {
-    text-align: center;
-    padding: 15px;
+.benefit-box:hover {
+    background-color: #ffffff;
+    border: 1px solid #00859B;
 }
 
-.feature-description {
-    text-align: center;
-    padding: 5px 15px;
+.benefit-box img {
+    width: 80px;
 }
 
 /* Building Section */
 
 #building {
-    height: 500px;
-    margin: 50px 0;
+    height: 600px;
+    margin: 10px 0 50px 0;
 }
 
 .building-dark {
@@ -179,22 +183,25 @@ body {
 }
 
 .building-dark h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
     color: white;
+    line-height: 40px;
 }
 
 .building-dark p {
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     padding-right: 10px;
-    line-height: 35px;
+    line-height: 25px;
 }
 
 .building-image {
     border: 4px solid white;
-    position: absolute;
-    top: 10%;
-    left: -10%;
+    position: relative;
+    top: 12%;
+    left: -5%;
+    box-shadow: 2px 2px 5px #272727;
 }
 
 @media only screen and (max-width: 990px) {
@@ -202,49 +209,55 @@ body {
         position: static;
         left: 0;
         width: 100%;
-        margin: 0 0 30px 0;
-        padding: 0 0 100px 0;
+        margin: 0 0 80px 0;
+        box-shadow: 0 0 0 #ffffff;
     }
 }
 
-/* Testimonials */
+/* Steps */
 
-#testimonials {
-    margin: 10px;
-    padding-top: 35px;
+#steps {
+    margin: 20px;
 }
 
-.testimonial-text {
-    font-size: 1.7rem;
-    font-weight: 400;
-    text-align: center;
+.steps-header {
+    font-size: 2.5rem;
+    font-weight: 500;
     color: #00859B;
-    padding: 15px;
-}
-
-.testimonial-ring {
-    border: 1px solid #00859B;
-    border-radius: 90px;
-    display: inline-block;
-    width: 180px;
-    height: 180px;
+    text-align: center;
+    padding: 10px;
     margin: 15px;
 }
 
-.testimonial-image {
-    width: 150px;
-    border-radius: 50%;
+.steps-image {
+    width: 300px;
+    margin: 20px 35px;
+    padding: 10px;
+    float: left;
 }
 
-.testimonial-name {
-    font-size: 1.2rem;
-    color: #97999B;
+.steps-arrow {
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.steps-main {
+    color: #272727;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.carousel {
+    margin-top: 25px;
+}
+
+.carousel-item {
+    padding: 25px;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon  {
-    background-color: #00859B;
-    border-radius: 25px;
+    background-color: #ffffff00;
 }
 
   #carouselIndicators > ol > li {
@@ -253,27 +266,24 @@ body {
       top: 20px;
   }
 
-/* Gallery Section - News & Insights*/
+  @media only screen and (max-width: 990px) {
+    .carousel {
+        margin-top: 150px;
+    }
+  }
 
-#news {
-    padding: 50px 10px;
-}
-
-.insights-title {
-    color: #00859B;
-}
-
-.fa-chevron-left,
-.fa-chevron-right,
-.card-title > a {
-    color: #00859B;
-}
+  @media only screen and (max-width: 640px) {
+    .carousel {
+        margin-top: 200px;
+    }
+  }
 
 /* Form Section */
 
 #form {
     background-color: #97999B;
     padding: 30px;
+    margin-top: 40px;
 }
 
 #form h2,

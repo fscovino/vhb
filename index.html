@@ -13,20 +13,35 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="resources/css/style.css">
 
-    <title>We Are VHB</title>
+    <title>Intersect | VHB</title>
   </head>
   <body>
     
     <!-- Header Section 1 -->
     <header id="home">
       <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="resources/img/logo_white.svg" width="120" alt="vhb logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <img class="logo-collapsed" src="resources/img/logo_white.svg" width="120" alt="vhb logo">
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#benefits">Benefits</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#steps">Steps</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#form">Contact</a>
+            </li>
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -56,18 +71,12 @@
               <a class="nav-link" href="https://www.vhb.com/locations/" target="_blank">Locations</a>
             </li>
 
-            <li class="nav-item active">
-              <a class="navbar-brand" href="#">
-                <img src="resources/img/logo_color.svg" width="120" alt="vhb logo">
-              </a>
-            </li>
-
             <li class="nav-item">
               <a class="nav-link" href="https://www.vhb.com/viewpoints/" target="_blank">Viewpoints</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#news">News & Insights</a>
+              <a class="nav-link" href="https://www.vhb.com/newsroom/" target="_blank">News & Insights</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -88,49 +97,59 @@
 
     <main>
 
-      <!-- Banner Section 2 -->
-      <section id="banner">
-        <div class="container d-flex flex-column align-items-center h-100">
-          <div class="row my-auto">
-            <div class="col d-flex flex-column align-items-center">
-              <h1>Working together to deliver a resilient and sustainable solutions for our <span class="text-highlight-black">clients</span> and <span class="text-highlight-black">customers</span></h1>
-              <div>
-                <a href="#features" class="btn btn-one-role" role="button" aria-pressed="true">Learn More</a>
-                <a href="#testimonials" class="btn btn-two-role" role="button" aria-pressed="true">Learn Less</a>
-              </div>
-            </div>
-          </div>
-          <div class="row mt-auto">
-            <h2 class="mb-3">Engineers  |  Scientists  |  Planners  |  Designers</h2>
-          </div>
-        </div>
+      <section class="hero">
+        <div class="polygon"></div>
+        <img src="resources/img/intersect_logo.svg" alt="Intersect Logo">
+        <h1>Where Data and Results Converge</h1>
+        <a href="https://www.vhb.com/globalassets/experience/services/applied-technologies/intersect-white-paper.pdf?utm_source=https://www.vhb.com/news/VHB-Launches-Innovative-Platform-for-Developing-Traffic-Volumes&utm_medium=link&utm_campaign=INTERSECT+news" target="_blank" class="btn btn-one-role" role="button" aria-pressed="true">Download Intersect White Paper</a>
       </section>
 
-
-      <!-- Features Section 3 -->
-      <section id="features">
+      <!-- Benefits Section 3 -->
+      <section id="benefits">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-lg-4">
-              <div class="feature feature-light">
-                <h3 class="feature-title">Societal & environmental</h3>
-                <p class="feature-icon"><img src="resources/img/icon_environment.svg" height="120" alt="enviroment icon"></p>
-                <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur quo dolores nulla neque velit nemo, excepturi voluptas illo aperiam, tempore veritatis blanditiis quas iure?voluptas illo aperiam, tempore</p>
-              </div>
+          <h2 class="text-center benefit-header" >Benefits</h2>
+          <p class="p-3" >Intersect is a
+            transportation planning tool that combines big data
+            analytics and traditional traffic analysis to identify
+            traffic data at intersections more efficiently than ever
+            before, without the need for traditional manual or
+            electronic counts.</p>
+
+          <div class="row d-flex justify-content-center">
+            <div class="benefit-box d-flex flex-column justify-content-center align-items-center">
+              <img src="resources/img/benefits_dots_blue.svg" alt="">
+              <p class="text-center mt-3">24/7 accessible data for any
+                intersection</p>
             </div>
-            <div class="col-md-12 col-lg-4">
-              <div class="feature feature-dark">
-                <h3 class="feature-title feature-title-dark">Technology & Innovation</h3>
-                <p class="feature-icon"><img src="resources/img/icon_technology.svg" height="120" alt="enviroment icon"></p>
-                <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur quo dolores nulla neque velit nemo, excepturi voluptas illo aperiam, tempore veritatis blanditiis quas iure?voluptas illo aperiam, tempore</p>
-              </div>
+            <div class="benefit-box d-flex flex-column justify-content-center align-items-center">
+              <img src="resources/img/benefits_calendar_blue.svg" alt="">
+              <p class="text-center mt-3">Year-round availability for data
+                collection—easy adjustments to account
+                for holidays, summer months, etc.</p>
             </div>
-            <div class="col-md-12 col-lg-4">
-              <div class="feature feature-light">
-                <h3 class="feature-title">Clean energy commitment</h3>
-                <p class="feature-icon"><img src="resources/img/icon_energy.svg" height="120" alt="enviroment icon"></p>
-                <p class="feature-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur quo dolores nulla neque velit nemo, excepturi voluptas illo aperiam, tempore veritatis blanditiis quas iure?voluptas illo aperiam, tempore</p>
-              </div>
+            <div class="benefit-box d-flex flex-column justify-content-center align-items-center">
+              <img src="resources/img/benefits_chart_blue.svg" alt="">
+              <p class="text-center mt-3">Fewer steps yield more efficiency and
+                faster results—a cost and time savings</p>
+            </div>
+            <div class="benefit-box d-flex flex-column justify-content-center align-items-center">
+              <img src="resources/img/benefits_checkmark_blue.svg" alt="">
+              <p class="text-center mt-3">A larger data set offers more reliability
+                and accuracy</p>
+            </div>
+            <div class="benefit-box d-flex flex-column justify-content-center align-items-center">
+              <img src="resources/img/benefits_gear_blue.svg" alt="">
+              <p class="text-center mt-3">Customizable output</p>
+            </div>
+            <div class="benefit-box d-flex flex-column justify-content-center align-items-center">
+              <img src="resources/img/benefits_phone_blue.svg" alt="">
+              <p class="text-center mt-3">Virtual collection minimizes field work
+                and enhances safety</p>
+            </div>
+            <div class="benefit-box d-flex flex-column justify-content-center align-items-center">
+              <img src="resources/img/benefits_people_blue.svg" alt="">
+              <p class="text-center mt-3">Viable tool during typical and atypical
+                traffic conditions</p>
             </div>
           </div>
         </div>
@@ -143,54 +162,104 @@
           <div class="row h-100">
             <div class="col-md-12 col-lg-2 building-dark"></div>
             <div class="col-md-12 col-lg-4 building-dark d-flex flex-column justify-content-center p-5">
-              <h2>BUILDING</h2>
-              <p>a Sustainable, Resilient, and Equitable Future</p>
+              <h2>Innovative platform for developing traffic volumes</h2>
+              <p>Collecting traffic data is a critical piece of advancing transportation projects. Intersect, VHB’s latest technology-driven innovation, revolutionizes the way we account for traffic volumes at urban, suburban, or rural intersections during typical and atypical circumstances.</p>
               <img src="resources/img/icon_leaves_white.svg" width="100px" alt="building">
             </div>
-            <div class="col-md-12 col-lg-6 building-light p-0">
-              <img class="building-image" src="resources/img/img_building.jpg" height="400px" alt="building">
+            <div class="col-md-12 col-lg-6 building-light p-0 my-auto">
+              <img class="building-image" src="resources/img/img_city.jpg" height="450px" alt="building">
             </div>
           </div>
         </div>
       </section>
 
 
-      <!-- Testimonials Section 5 -->
-      <section id="testimonials">
-        <div class="container">
+      <!-- Steps Section 5 -->
+      <section id="steps">
+
           <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselIndicators" data-slide-to="1"></li>
               <li data-target="#carouselIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
+              <h2 class="steps-header">Intersect's Innovative Process</h2>
 
-              <div class="carousel-item text-center active">
-                <h2 class="testimonial-text">VHB’s diverse team brings together our collective knowledge, technical excellence,and wide network of trusted relationships across our footprintto address our clients’ most complex challenges.</h2>
-                <img src="resources/img/icon_leaves_gray.svg" width="80px" alt="Leaves icon">
-                <div class="testimonial-ring d-flex justify-content-center mx-auto">
-                  <img src="resources/img/executive_3.png" class="d-block my-auto testimonial-image" alt="CEO picture">
+              <div class="carousel-item active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 mx d-flex justify-content-center">
+                      <img src="resources/img/graph_step1.svg" class="steps-image" alt="Leverage Graph">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="resources/img/arrow_step1.svg" class="steps-arrow" alt="Step 1">
+                      <h2 class="steps-main">Intersect Leverages Probe Data in a Big Data Environment</h2>
+                      <p class="steps-description">Probe data is a geospatial set of collected data points that need to be aggregated by algorithms to produce a single value. The development of intersection volumes is the sum of the individual records using a “point-to-point” concept.</p>
+                    </div>
+                  </div>
                 </div>
-                <p class="testimonial-name">John Doe, CEO</p>
               </div>
 
-              <div class="carousel-item text-center">
-                <h2 class="testimonial-text">VHB’s diverse team brings together our collective knowledge, technical excellence,and wide network of trusted relationships across our footprintto address our clients’ most complex challenges.</h2>
-                <img src="resources/img/icon_leaves_gray.svg" width="80px" alt="Leaves icon">
-                <div class="testimonial-ring d-flex justify-content-center mx-auto">
-                  <img src="resources/img/executive_2.png" class="d-block my-auto testimonial-image" alt="CEO picture">
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 mx d-flex justify-content-center">
+                      <img src="resources/img/graph_step2.svg" class="steps-image" alt="Identify Graph">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="resources/img/arrow_step2.svg" class="steps-arrow" alt="Step 2">
+                      <h2 class="steps-main">Intersect Identifies Control Points</h2>
+                      <p class="steps-description">Leveraging probe data over multiple days improves
+                        the normalization process for developing intersection
+                        design volumes. While not required, the use of
+                        additional control points, where available, can
+                        provide a point of reference for verifying the
+                        intersection volumes and increasing the reliability
+                        of the data.</p>
+                    </div>
+                  </div>
                 </div>
-                <p class="testimonial-name">Lisa Chan, CFO</p>
               </div>
 
-              <div class="carousel-item text-center">
-                <h2 class="testimonial-text">VHB’s diverse team brings together our collective knowledge, technical excellence,and wide network of trusted relationships across our footprintto address our clients’ most complex challenges.</h2>
-                <img src="resources/img/icon_leaves_gray.svg" width="80px" alt="Leaves icon">
-                <div class="testimonial-ring d-flex justify-content-center mx-auto">
-                  <img src="resources/img/executive_1.png" class="d-block my-auto testimonial-image" alt="CEO picture">
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 mx d-flex justify-content-center">
+                      <img src="resources/img/graph_step3.svg" class="steps-image" alt="Leverage Graph">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="resources/img/arrow_step3.svg" class="steps-arrow" alt="Step 3">
+                      <h2 class="steps-main">Intersect’s Balanced Flow Approach</h2>
+                      <p class="steps-description">Essentially, what goes into an
+                        intersection is expected to exit an
+                        intersection. It is ideal to have the
+                        intersection traffic volumes balance with
+                        both directions of a control point and for
+                        all approaches to the intersection.</p>
+                    </div>
+                  </div>
                 </div>
-                <p class="testimonial-name">Will Smith, CTO</p>
+              </div>
+
+              <div class="carousel-item">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 mx d-flex justify-content-center">
+                      <img src="resources/img/graph_step4.jpg" class="steps-image" alt="Leverage Graph">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="resources/img/arrow_step4.svg" class="steps-arrow" alt="Step 4">
+                      <h2 class="steps-main">Intersect’s Process and Data Validation</h2>
+                      <p class="steps-description">Traffic counts are a critical piece of advancing
+                        transportation efforts, and often where a project
+                        begins. Intersect provides the flexibility to use big
+                        data and revolutionizes the way we account for
+                        traffic volumes.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
             </div>
@@ -203,136 +272,8 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        </div>
+
       </section>
-
-
-      <!-- News Gallery Section 6 -->
-      <section id="news">
-        <div class="container">
-          <h1 class="text-center my-2 insights-title">News & Insights</h1>
-          <div id="multi-item" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-            <!--Controls-->
-            <div class="controls-top text-center my-4">
-              <a class="black-text" href="#multi-item" data-slide="prev"><i class="fa fa-chevron-left fa-2x"></i></a>
-              <a class="black-text" href="#multi-item" data-slide="next"><i class="fa fa-chevron-right fa-2x"></i></a>
-            </div>
-            <!--/.Controls-->
-
-            <!-- Slides -->
-            <div class="carousel-inner" role="listbox">
-
-              <!-- Carousel Item Line of 3 cards -->
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_1.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/vhb-welcomes-anne-elizabeth-kaitano-to-northeast-energy-team/" target="_blank">Welcome Anne</a></h5>
-                        <p class="card-text">VHB Welcomes Anne-Elizabeth Kaitano to Northeast Energy Team</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_2.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/long-bridge-rail-project-moves-closer-to-construction/" target="_blank">Long Bridge Rail</a></h5>
-                        <p class="card-text">Long Bridge Rail Project Moves One Step Closer to Construction</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_3.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/providence-charitable-team-brings-energy-creativity-and-masterful-organization/" target="_blank">Providence Team Support</a></h5>
-                        <p class="card-text">Providence Team Supports VHB Cares with Energy, Creativity, and Masterful Organization</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Carousel Item Line of 3 cards -->
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_4.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/jmu-land-bridge-project-wins-two-industry-awards/" target="_blank">James Madison University</a></h5>
-                        <p class="card-text">James Madison University’s East Campus Land Bridge Wins Two Industry Awards</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_5.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/supporting-others-with-20-in-2020-challenge/" target="_blank">#20in2020 Challenge</a></h5>
-                        <p class="card-text">VHBers Across Our Footprint Supported Others While Having Fun with #20in2020 Challenge</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_6.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/vhb-selected-as-a-best-place-to-work-by-virginia-business/" target="_blank">Best Places to Work</a></h5>
-                        <p class="card-text">VHB Named One of the Best Places to Work in Virginia—for the Fifth Year in a Row!</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Carousel Item Line of 3 cards -->
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_7.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/vhb-and-brinkerhoff-environmental-services-join-forces/" target="_blank">Environmental Services</a></h5>
-                        <p class="card-text">VHB Acquires Brinkerhoff Environmental Services</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_8.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/news/WTS-leadership-appointments/" target="_blank">Leadership Roles</a></h5>
-                        <p class="card-text">VHB continues to make an impact with 17 appointments to WTS chapter roles</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card">
-                      <img class="card-img-top" src="resources/img/img_news_9.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.vhb.com/old-dominion-university-adds-two-iconic-buildings/" target="_blank">New Campus Buildings</a></h5>
-                        <p class="card-text">Old Dominion University Demonstrates Commitment to STEM-H with the Opening of Two New Campus Buildings</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-
 
       <!-- Form Section 7 -->
       <section id="form">
@@ -341,7 +282,7 @@
             <div class="col-md-12 col-lg-2"></div>
             <div class="col-md-12 col-lg-4 d-flex flex-column justify-content-center p-5">
               <h2>Get In Touch</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, dignissimos illum, incidunt repellat iste impedit quas architecto ipsam quasi harum, consectetur itaque excepturi aspernatur vero sunt sapiente inventore minus voluptas!</p>
+              <p>To learn more about Intersect and how VHB can help keep your critical transportation projects moving, please contact Amir Rizavi, PE, ENV SP, Intersect Program Director.</p>
               <img src="resources/img/icon_leaves_white.svg" width="100px" alt="building">
             </div>
             <div class="col-md-12 col-lg-4">
