@@ -128,3 +128,56 @@ width: 100px;
 .building-left>p{
     font-size:25px;
 }
+
+.card-img{
+    width: 80px;
+    height: 150px;
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+}
+/* .col-lg-3{
+    width: 277px;
+    height: 300px;  
+} */
+.card-body{ 
+/* width: 277px;
+height: 300px; */
+
+margin-top: 5px; 
+margin-right: 20px;
+/* margin-left: 0.5%;  */
+ /* margin-left: 5px; 
+padding-right: 50px;  */
+ } 
+
+ .card-row2{
+    width: 100%;
+     margin: 0 12.5%;
+
+}
+.card:hover{
+    color:white;
+    background-color: #7d94aa;
+   
+    
+}
+/* .card-body{
+    justify-content:space-between;
+} */
+
+/* .card-img:hover{
+    width: 80px;
+    height: 150px;
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+  background-image: url('../img/icons/benefits_dots_white.svg');
+} */
+@media(max-width:576px){
+    .card-row2,.card-row1{
+     
+         margin: 0;
+      
+    }
+}

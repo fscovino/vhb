@@ -36,9 +36,9 @@ function formValidation(e) {
 
 button.addEventListener('click', formValidation);
 
-function removemessage(input){
+// function removemessage(input){
 
-    input.style.display = 'none'
-}
-const nameInput = document.querySelector('#name').value;
-document.querySelector('#name').addEventListener ('click', removemessage(nameInput));
+//     input.style.display = 'none'
+// }
+// const nameInput = document.querySelector('#name').value;
+// document.querySelector('#name').addEventListener ('click', removemessage(nameInput));
