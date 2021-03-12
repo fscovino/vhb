@@ -312,7 +312,7 @@ label {
 /* Footer */
 
 footer {
-    background-color: #00859B;
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 20px 1px 1px 1px;
 }
 
@@ -330,6 +330,10 @@ hr.solid {
     text-align: center;
 }
 
+.social_title{ 
+    color:white;
+    padding-left:25px; 
+    }
 @media only screen and (min-width: 990px) {
     .nav-link:hover {
         border-top: 2px solid white;
