@@ -371,6 +371,10 @@ hr.solid {
     text-align: center;
 }
 
+.social_title{ 
+    color:white;
+    padding-left:25px; 
+    }
 @media only screen and (min-width: 990px) {
     .nav-link:hover {
         border-top: 2px solid white;
